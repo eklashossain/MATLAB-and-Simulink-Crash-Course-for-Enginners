@@ -35,8 +35,6 @@ MATLAB and Simulink Crash Course for Engineers is a reader-friendly introductory
 
 <h2>Bibliographic Information</h2>
 <br>
-* DOI <a href="https://doi.org/10.1007/978-3-030-89762-8">https://doi.org/10.1007/978-3-030-89762-8</a>  
-* Publisher **Springer Cham**
-* Hardcover ISBN **978-3-030-89761-1** Published: 08 March 2022
-* Softcover ISBN **978-3-030-89764-2** Published: 09 March 2023
+DOI: <a href="https://doi.org/10.1007/978-3-030-89762-8">https://doi.org/10.1007/978-3-030-89762-8</a>  
+
   
