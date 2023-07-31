@@ -4,7 +4,7 @@
 
 <p id="description">Concise guide to MATLAB and Simulink for modelling and simulating systems Provides real-world examples exercises and applications Offers highly illustrated step-by-step guidance</p>
 
-<p align="center"><img src="https://img.shields.io/badge/Repository%20for%20MATLAB%20and%20Simulink%20files%20-%20purple" alt="shields"><img src="https://img.shields.io/badge/Textbook%20%20-%20%C2%A9%202022%20-blue" alt="shields"><img src="https://img.shields.io/badge/Authors%20-%20%20Eklas%20Hossain%20-blue" alt="shields"></p>
+<p align="center"><img src="https://img.shields.io/badge/Textbook%20%20-%20%C2%A9%202022%20-blue" alt="shields">&nbsp;<img src="https://img.shields.io/badge/Authors%20-%20%20Eklas%20Hossain%20-blue" alt="shields"></p>
 
   
   
