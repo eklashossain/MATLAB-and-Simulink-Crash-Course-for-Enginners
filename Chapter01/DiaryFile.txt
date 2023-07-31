@@ -1,0 +1,88 @@
+diary_function
+Enter a:2
+Enter b:4
+Summation: 6
+Usage of fprintf() function:
+The value of the variable is: 5.200000e+00
+The value of the variable is: 5.200000
+Usage of fprintf() function:
+The value of the variable is: 5
+The value of the variable is: 5.000000
+Usage of fprintf() function:
+The value of the variable is: 5
+The value of the variable is: 5.000000
+Usage of fprintf() function:
+The value of the variable is: 5
+The value of the variable is: 5.000000
+Usage of fprintf() function:
+The value of the variable is: 5
+The value of the variable is: 5.250000
+fprintf(var)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fprintf')" style="font-weight:bold">fprintf</a>
+Invalid file identifier.  Use fopen to
+generate a valid file identifier.
+} 
+Usage of disp() function:
+    5.2500
+
+Matrix dimensions must agree.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fprintf_function', 'E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 1\fprintf_function.m', 15)" style="font-weight:bold">fprintf_function</a> (<a href="matlab: opentoline('E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 1\fprintf_function.m',15,0)">line 15</a>)
+disp('The value of the variable is'+
+num2str(var));
+
+Usage of disp() function:
+    5.2500
+
+Matrix dimensions must agree.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fprintf_function', 'E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 1\fprintf_function.m', 15)" style="font-weight:bold">fprintf_function</a> (<a href="matlab: opentoline('E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 1\fprintf_function.m',15,0)">line 15</a>)
+disp({'The value of the variable is'+
+num2str(var)});
+
+Usage of disp() function:
+    5.2500
+
+Matrix dimensions must agree.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fprintf_function', 'E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 1\fprintf_function.m', 15)" style="font-weight:bold">fprintf_function</a> (<a href="matlab: opentoline('E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 1\fprintf_function.m',15,0)">line 15</a>)
+disp(['The value of the variable is'+
+num2str(var)]);
+
+Usage of disp() function:
+    5.2500
+
+The value of the variable is5.25
+Usage of disp() function:
+    5.2500
+
+The value of the variable is: 5.25
+Usage of disp() function:
+    5.2500
+
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('disp')" style="font-weight:bold">disp</a>
+Too many input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fprintf_function', 'E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 1\fprintf_function.m', 15)" style="font-weight:bold">fprintf_function</a> (<a href="matlab: opentoline('E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 1\fprintf_function.m',15,0)">line 15</a>)
+disp('The value of the variable is:
+',num2str(var));
+
+Usage of disp() function:
+    5.2500
+
+The value of the variable is: 5.25
+Publishing
+
+A =
+
+     4     5     3     5     6
+
+Maximum value of the array A:     6
+
+Minimum value of the array A:     3
+
+clc;clear;
+edit
+clear;clc;
+cd 'E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 12'
+clear; clc;

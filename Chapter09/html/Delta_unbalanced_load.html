@@ -1,0 +1,169 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>Delta_unbalanced_load</title><meta name="generator" content="MATLAB 9.8"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2021-05-01"><meta name="DC.source" content="Delta_unbalanced_load.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; }
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+span.typesection { color:#A0522D }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><pre class="codeinput"><span class="comment">% Delta connected unbalanced load</span>
+<span class="comment">% Line to line voltages:</span>
+<span class="comment">% V_AB=120 V angle 0 deg;V_BC=110 V angle 120 deg;V_CA=150 V angle 240 deg</span>
+<span class="comment">% Impedances:</span>
+<span class="comment">% Z1=10 Ohms angle 10 deg;Z2=15 Ohms angle -25 deg;Z3=20 Ohms angle -10 deg;</span>
+<span class="comment">% Find: Phase currents I_AB, I_BC, I_CA</span>
+<span class="comment">% Find: Line currents I_A, I_B, I_C</span>
+clc;clear;
+<span class="comment">% Line to line voltages</span>
+V_AB=120*cos(0)+i*120*sin(0);
+V_BC=110*cos(120*(pi/180))+i*110*sin(120*(pi/180));
+V_CA=150*cos(240*(pi/180))+i*150*sin(240*(pi/180));
+<span class="comment">% Impedances</span>
+Z1=10*cos(10*(pi/180))+i*10*sin(10*(pi/180));
+Z2=15*cos(-25*(pi/180))+i*15*sin(-25*(pi/180));
+Z3=20*cos(-10*(pi/180))+i*20*sin(-10*(pi/180));
+<span class="comment">% Phase currents</span>
+I_AB=V_AB/Z1;
+I_BC=V_BC/Z2;
+I_CA=V_CA/Z3;
+I_AB_mag=abs(I_AB);
+I_AB_ang=angle(I_AB)*180/pi;
+I_BC_mag=abs(I_AB);
+I_BC_ang=angle(I_BC)*180/pi;
+I_CA_mag=abs(I_CA);
+I_CA_ang=angle(I_CA)*180/pi;
+fprintf(<span class="string">'Phase currents:\n'</span>);
+fprintf(<span class="string">'I_AB= %.3f A      Angle= %.3f degree\n'</span>,I_AB_mag,I_AB_ang);
+fprintf(<span class="string">'I_BC= %.3f A      Angle= %.3f degree\n'</span>,I_BC_mag,I_BC_ang);
+fprintf(<span class="string">'I_CA= %.3f A      Angle= %.3f degree\n'</span>,I_CA_mag,I_CA_ang);
+<span class="comment">% Line currents</span>
+I_A=I_AB-I_CA;
+I_B=I_BC-I_AB;
+I_C=I_CA-I_BC;
+I_A_mag=abs(I_A);
+I_A_ang=angle(I_A)*180/pi;
+I_B_mag=abs(I_B);
+I_B_ang=angle(I_B)*180/pi;
+I_C_mag=abs(I_C);
+I_C_ang=angle(I_C)*180/pi;
+fprintf(<span class="string">'Line currents:\n'</span>);
+fprintf(<span class="string">'I_A= %.3f A      Angle= %.3f degree\n'</span>,I_A_mag,I_A_ang);
+fprintf(<span class="string">'I_B= %.3f A      Angle= %.3f degree\n'</span>,I_B_mag,I_B_ang);
+fprintf(<span class="string">'I_C= %.3f A      Angle= %.3f degree\n'</span>,I_C_mag,I_C_ang);
+</pre><pre class="codeoutput">Phase currents:
+I_AB= 12.000 A      Angle= -10.000 degree
+I_BC= 12.000 A      Angle= 145.000 degree
+I_CA= 7.500 A      Angle= -110.000 degree
+Line currents:
+I_A= 15.215 A      Angle= 19.041 degree
+I_B= 18.902 A      Angle= 160.563 degree
+I_C= 11.769 A      Angle= -72.994 degree
+</pre><p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2020a</a><br></p></div><!--
+##### SOURCE BEGIN #####
+% Delta connected unbalanced load
+% Line to line voltages:
+% V_AB=120 V angle 0 deg;V_BC=110 V angle 120 deg;V_CA=150 V angle 240 deg
+% Impedances:
+% Z1=10 Ohms angle 10 deg;Z2=15 Ohms angle -25 deg;Z3=20 Ohms angle -10 deg;
+% Find: Phase currents I_AB, I_BC, I_CA
+% Find: Line currents I_A, I_B, I_C
+clc;clear;
+% Line to line voltages
+V_AB=120*cos(0)+i*120*sin(0);
+V_BC=110*cos(120*(pi/180))+i*110*sin(120*(pi/180));
+V_CA=150*cos(240*(pi/180))+i*150*sin(240*(pi/180));
+% Impedances
+Z1=10*cos(10*(pi/180))+i*10*sin(10*(pi/180));
+Z2=15*cos(-25*(pi/180))+i*15*sin(-25*(pi/180));
+Z3=20*cos(-10*(pi/180))+i*20*sin(-10*(pi/180));
+% Phase currents
+I_AB=V_AB/Z1;
+I_BC=V_BC/Z2;
+I_CA=V_CA/Z3;
+I_AB_mag=abs(I_AB);
+I_AB_ang=angle(I_AB)*180/pi;
+I_BC_mag=abs(I_AB);
+I_BC_ang=angle(I_BC)*180/pi;
+I_CA_mag=abs(I_CA);
+I_CA_ang=angle(I_CA)*180/pi;
+fprintf('Phase currents:\n');
+fprintf('I_AB= %.3f A      Angle= %.3f degree\n',I_AB_mag,I_AB_ang);
+fprintf('I_BC= %.3f A      Angle= %.3f degree\n',I_BC_mag,I_BC_ang);
+fprintf('I_CA= %.3f A      Angle= %.3f degree\n',I_CA_mag,I_CA_ang);
+% Line currents
+I_A=I_AB-I_CA;
+I_B=I_BC-I_AB;
+I_C=I_CA-I_BC;
+I_A_mag=abs(I_A);
+I_A_ang=angle(I_A)*180/pi;
+I_B_mag=abs(I_B);
+I_B_ang=angle(I_B)*180/pi;
+I_C_mag=abs(I_C);
+I_C_ang=angle(I_C)*180/pi;
+fprintf('Line currents:\n');
+fprintf('I_A= %.3f A      Angle= %.3f degree\n',I_A_mag,I_A_ang);
+fprintf('I_B= %.3f A      Angle= %.3f degree\n',I_B_mag,I_B_ang);
+fprintf('I_C= %.3f A      Angle= %.3f degree\n',I_C_mag,I_C_ang);
+##### SOURCE END #####
+--></body></html>

@@ -1,0 +1,2266 @@
+Diary
+Enter a:2
+Enter b:4
+Summation: 6.000000
+Diary
+Enter a:2
+Enter b:4
+Summation: 6
+render process terminated: TS_PROCESS_WAS_KILLED
+render process terminated: TS_PROCESS_WAS_KILLED
+render process terminated: TS_PROCESS_WAS_KILLED
+Enter a:2
+Enter b:5
+
+a =
+
+     1     2     3     4
+
+Undefined function 'radin' for
+input arguments of type
+'double'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Untitled2', 'Untitled2', 7)" style="font-weight:bold">Untitled2</a> (<a href="matlab: opentoline('Untitled2',7,0)">line 7</a>)
+C = radin(row,col); % array
+of random numbers
+
+Array of zeros:
+     0     0
+     0     0
+     0     0
+
+Array of ones:
+     1     1
+     1     1
+     1     1
+
+Array of random numbers:
+    0.0975    0.9575
+    0.2785    0.9649
+    0.5469    0.1576
+
+Array of zeros:
+     0     0
+     0     0
+     0     0
+
+Array of ones:
+     1     1
+     1     1
+     1     1
+
+Array of random numbers:
+     3     2
+     3     3
+
+Array of zeros:
+     0     0
+     0     0
+     0     0
+
+Array of ones:
+     1     1
+     1     1
+     1     1
+
+Array of random numbers:
+    0.1419    0.7922
+    0.4218    0.9595
+    0.9157    0.6557
+
+class(C)
+
+ans =
+
+    'double'
+
+Array of zeros:
+     0     0
+     0     0
+     0     0
+
+Array of ones:
+     1     1
+     1     1
+     1     1
+
+Array of random numbers:
+     1     3
+     3     3
+
+class(C)
+
+ans =
+
+    'double'
+
+Array of zeros:
+     0     0
+     0     0
+     0     0
+
+Array of ones:
+     1     1
+     1     1
+     1     1
+
+Array of random numbers:
+    0.7577    0.6555
+    0.7431    0.1712
+    0.3922    0.7060
+
+Array of zeros:
+     0     0
+     0     0
+     0     0
+
+Array of ones:
+     1     1
+     1     1
+     1     1
+
+cd 'E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 2'
+clear;clc
+Array of uniformly distributed random numbers:
+    0.3171    0.4387
+    0.9502    0.3816
+    0.0344    0.7655
+
+Array normally distributed random numbers:
+    0.3129   -0.1649
+   -0.8649    0.6277
+   -0.0301    1.0933
+
+Array uniformly distributed random pseudo-integer:
+     3     3
+     1     2
+
+Array of zeros:
+     0     0
+     0     0
+     0     0
+
+Array of ones:
+     1     1
+     1     1
+     1     1
+
+Array of uniformly distributed random numbers:
+    0.1626    0.9597
+    0.1190    0.3404
+    0.4984    0.5853
+
+Array normally distributed random numbers:
+   -0.2256    0.0326
+    1.1174    0.5525
+   -1.0891    1.1006
+
+Array uniformly distributed random pseudo-integer:
+     3     1
+     2     1
+
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('randi')" style="font-weight:bold">randi</a>
+First input must be a positive scalar integer value IMAX,
+or two integer values [IMIN IMAX] with IMIN less than or
+equal to IMAX.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('zeros_ones', 'E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 2\zeros_ones.m', 18)" style="font-weight:bold">zeros_ones</a> (<a href="matlab: opentoline('E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 2\zeros_ones.m',18,0)">line 18</a>)
+C = randi([row,col]); % uniformly distributed random
+pseudo-integer
+
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('randi')" style="font-weight:bold">randi</a>
+First input must be a positive scalar integer value IMAX,
+or two integer values [IMIN IMAX] with IMIN less than or
+equal to IMAX.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('zeros_ones', 'E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 2\zeros_ones.m', 18)" style="font-weight:bold">zeros_ones</a> (<a href="matlab: opentoline('E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 2\zeros_ones.m',18,0)">line 18</a>)
+C = randi([row col]); % uniformly distributed random
+pseudo-integer
+
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('randi')" style="font-weight:bold">randi</a>
+First input must be a positive scalar integer value IMAX,
+or two integer values [IMIN IMAX] with IMIN less than or
+equal to IMAX.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('zeros_ones', 'E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 2\zeros_ones.m', 18)" style="font-weight:bold">zeros_ones</a> (<a href="matlab: opentoline('E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 2\zeros_ones.m',18,0)">line 18</a>)
+C = randi([row,col]); % uniformly distributed random
+pseudo-integer
+
+Array of uniformly distributed random numbers:
+    0.6020    0.6892
+    0.2630    0.7482
+    0.6541    0.4505
+
+Array normally distributed random numbers:
+   -2.1384   -1.0722
+   -0.8396    0.9610
+    1.3546    0.1240
+
+Array uniformly distributed random pseudo-integer:
+     6     1
+     1     6
+     3     1
+
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('randi')" style="font-weight:bold">randi</a>
+Size inputs must be scalar.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('zeros_ones', 'E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 2\zeros_ones.m', 18)" style="font-weight:bold">zeros_ones</a> (<a href="matlab: opentoline('E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 2\zeros_ones.m',18,0)">line 18</a>)
+C = randi(2,6,[row,col]); % uniformly distributed random
+pseudo-integer
+
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('randi')" style="font-weight:bold">randi</a>
+Size inputs must be scalar.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('zeros_ones', 'E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 2\zeros_ones.m', 18)" style="font-weight:bold">zeros_ones</a> (<a href="matlab: opentoline('E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 2\zeros_ones.m',18,0)">line 18</a>)
+C = randi(6,2,[row,col]); % uniformly distributed random
+pseudo-integer
+
+Array of uniformly distributed random numbers:
+    0.1233    0.4173
+    0.1839    0.0497
+    0.2400    0.9027
+
+Array normally distributed random numbers:
+    0.5201   -0.7982
+   -0.0200    1.0187
+   -0.0348   -0.1332
+
+Array uniformly distributed random pseudo-integer:
+     1     2
+     5     3
+     3     1
+
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rand')" style="font-weight:bold">rand</a>
+Size inputs must be scalar.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('zeros_ones', 'E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 2\zeros_ones.m', 18)" style="font-weight:bold">zeros_ones</a> (<a href="matlab: opentoline('E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 2\zeros_ones.m',18,0)">line 18</a>)
+A = rand([num_min,num_max],row,col);  % uniformly
+distributed random numbers
+
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rand')" style="font-weight:bold">rand</a>
+Size inputs must be scalar.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('zeros_ones', 'E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 2\zeros_ones.m', 18)" style="font-weight:bold">zeros_ones</a> (<a href="matlab: opentoline('E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 2\zeros_ones.m',18,0)">line 18</a>)
+A = rand([num_min,num_max],row,col);  % uniformly
+distributed random numbers
+
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rand')" style="font-weight:bold">rand</a>
+Size inputs must be scalar.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('zeros_ones', 'E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 2\zeros_ones.m', 18)" style="font-weight:bold">zeros_ones</a> (<a href="matlab: opentoline('E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 2\zeros_ones.m',18,0)">line 18</a>)
+A = rand([num_min,num_max],row,col);  % uniformly
+distributed random numbers
+
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rand')" style="font-weight:bold">rand</a>
+Size inputs must be scalar.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('zeros_ones', 'E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 2\zeros_ones.m', 18)" style="font-weight:bold">zeros_ones</a> (<a href="matlab: opentoline('E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 2\zeros_ones.m',18,0)">line 18</a>)
+A = rand([num_min,num_max],row,col);  % uniformly
+distributed random numbers
+
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rand')" style="font-weight:bold">rand</a>
+Size inputs must be scalar.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('zeros_ones', 'E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 2\zeros_ones.m', 18)" style="font-weight:bold">zeros_ones</a> (<a href="matlab: opentoline('E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 2\zeros_ones.m',18,0)">line 18</a>)
+A = rand([num_min,num_max],row,col);  % uniformly
+distributed random numbers
+
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rand')" style="font-weight:bold">rand</a>
+Size inputs must be scalar.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('zeros_ones', 'E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 2\zeros_ones.m', 18)" style="font-weight:bold">zeros_ones</a> (<a href="matlab: opentoline('E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 2\zeros_ones.m',18,0)">line 18</a>)
+A = rand([num_min,num_max],row,col);  % uniformly
+distributed random numbers
+
+Array of uniformly distributed random numbers:
+    0.1320    0.5752
+    0.9421    0.0598
+    0.9561    0.2348
+
+Array normally distributed random numbers:
+   -0.1765   -2.3299
+    0.7914   -1.4491
+   -1.3320    0.3335
+
+Array uniformly distributed random pseudo-integer:
+     5     4
+     5     3
+     4     5
+
+Array of uniformly distributed random numbers:
+    0.1890    0.3685
+    0.6868    0.6256
+    0.1835    0.7802
+
+Array normally distributed random numbers:
+   -1.1176   -0.0679
+    1.2607   -0.1952
+    0.6601   -0.2176
+
+Array uniformly distributed random pseudo-integer:
+     4     7
+     5     7
+     5     6
+
+
+C =
+
+     1     4     2    -4
+     2     4     1     3
+     3     2     7     9
+
+
+D =
+
+     1     4
+     2     4
+     3     2
+     2    -4
+     1     3
+     7     9
+
+Horizontal concatenation:
+
+C =
+
+     1     4     2    -4
+     2     4     1     3
+     3     2     7     9
+
+Vertical concatenation:
+
+D =
+
+     1     4
+     2     4
+     3     2
+     2    -4
+     1     3
+     7     9
+
+Horizontal concatenation:
+
+C =
+
+     1     4     2    -4
+     2     4     1     3
+     3     2     7     9
+
+Vertical concatenation:
+
+D =
+
+     1     4
+     2     4
+     3     2
+     2    -4
+     1     3
+     7     9
+
+Dimension of matrix A:
+
+ans =
+
+     3     2
+
+Dimension of matrix A:
+     3     2
+
+Dimension of matrix A:
+     3     2
+
+
+A =
+
+     2     1
+     4     3
+     2     1
+
+Dimension of matrix A:
+     3     2
+
+Linearly spaced one-dimensional array:
+     5    20
+
+Linearly spaced one-dimensional array:
+  Columns 1 through 4
+
+    5.0000    6.6667    8.3333   10.0000
+
+  Columns 5 through 8
+
+   11.6667   13.3333   15.0000   16.6667
+
+  Columns 9 through 10
+
+   18.3333   20.0000
+
+Unrecognized function or variable 'Up'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Untitled4', 'Untitled4', 9)" style="font-weight:bold">Untitled4</a> (<a href="matlab: opentoline('Untitled4',9,0)">line 9</a>)
+B = Up
+
+Linearly spaced one-dimensional array:
+  Columns 1 through 4
+
+    5.0000    6.6667    8.3333   10.0000
+
+  Columns 5 through 8
+
+   11.6667   13.3333   15.0000   16.6667
+
+  Columns 9 through 10
+
+   18.3333   20.0000
+
+
+B =
+
+     5    15
+
+Linearly spaced one-dimensional array:
+  Columns 1 through 4
+
+    5.0000    8.7500   12.5000   16.2500
+
+  Column 5
+
+   20.0000
+
+
+B =
+
+     5    10    15    20
+
+Linearly spaced one-dimensional array:
+    5.0000    8.7500   12.5000   16.2500   20.0000
+
+
+B =
+
+     5    10    15    20
+
+Linearly spaced one-dimensional array:
+    5.0000    8.7500   12.5000   16.2500   20.0000
+
+
+B =
+
+     5    10    15    20
+
+Linearly spaced one-dimensional array:
+    6.0000    9.5000   13.0000   16.5000   20.0000
+
+
+B =
+
+     6    11    16
+
+Linearly spaced one-dimensional array:
+    6.0000   10.5000   15.0000   19.5000   24.0000
+
+
+B =
+
+     6    11    16    21
+
+Unrecognized function or variable 'space'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Untitled4', 'Untitled4', 6)" style="font-weight:bold">Untitled4</a> (<a href="matlab: opentoline('Untitled4',6,0)">line 6</a>)
+A = linspace(Up_range,Low_range,space);
+
+Linearly spaced one-dimensional array:
+    6.0000   10.5000   15.0000   19.5000   24.0000
+
+
+B =
+
+    6.0000   10.5000   15.0000   19.5000   24.0000
+
+Linearly spaced one-dimensional array:
+  Columns 1 through 5
+
+    6.0000    9.6000   13.2000   16.8000   20.4000
+
+  Column 6
+
+   24.0000
+
+
+B =
+
+    6.0000   10.5000   15.0000   19.5000   24.0000
+
+Linearly spaced one-dimensional array:
+    1.0000    3.2500    5.5000    7.7500   10.0000
+
+
+B =
+
+    1.0000    5.5000   10.0000
+
+Linearly spaced one-dimensional array:
+    1.0000    3.5000    6.0000    8.5000   11.0000
+
+
+B =
+
+    1.0000    5.5000   10.0000
+
+Linearly spaced one-dimensional array:
+    2.0000    4.5000    7.0000    9.5000   12.0000
+
+
+B =
+
+    2.0000    6.5000   11.0000
+
+Linearly spaced one-dimensional array:
+    2.0000    4.5000    7.0000    9.5000   12.0000
+
+
+B =
+
+    2.0000    4.5000    7.0000    9.5000   12.0000
+
+Linearly spaced one-dimensional array:
+-----------------------------------------
+Using linspace function:    2.0000    4.5000    7.0000    9.5000   12.0000
+
+Without using linspace function:    2.0000    4.5000    7.0000    9.5000   12.0000
+
+Linearly spaced one-dimensional array:
+-----------------------------------------
+Using linspace function:
+  Columns 1 through 4
+
+    2.0000    4.5000    7.0000    9.5000
+
+  Column 5
+
+   12.0000
+
+Without using linspace function:
+  Columns 1 through 4
+
+    2.0000    4.5000    7.0000    9.5000
+
+  Column 5
+
+   12.0000
+
+Linearly spaced one-dimensional array:
+-----------------------------------------
+Using linspace function:
+    2.0000    4.5000    7.0000    9.5000   12.0000
+
+Without using linspace function:
+    2.0000    4.5000    7.0000    9.5000   12.0000
+
+Attempt to execute SCRIPT linspace as a function:
+E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My
+work\Raw Files\MATLAB-File\Chapter 2\linspace.m
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('linspace', 'E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 2\linspace.m', 7)" style="font-weight:bold">linspace</a> (<a href="matlab: opentoline('E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 2\linspace.m',7,0)">line 7</a>)
+A = linspace(Up_range,Low_range,point);
+
+linspace
+{Attempt to execute SCRIPT linspace as a function:
+E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My
+work\Raw Files\MATLAB-File\Chapter 2\linspace.m
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('linspace', 'E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 2\linspace.m', 7)" style="font-weight:bold">linspace</a> (<a href="matlab: opentoline('E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 2\linspace.m',7,0)">line 7</a>)
+A = linspace(Up_range,Low_range,point);
+} 
+Attempt to execute SCRIPT linspace as a function:
+E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My
+work\Raw Files\MATLAB-File\Chapter 2\linspace.m
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('linspace', 'E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 2\linspace.m', 7)" style="font-weight:bold">linspace</a> (<a href="matlab: opentoline('E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 2\linspace.m',7,0)">line 7</a>)
+A = linspace(Up_range,Low_range,point);
+
+linspace_function
+{Attempt to execute SCRIPT linspace as a function:
+E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My
+work\Raw Files\MATLAB-File\Chapter 2\linspace.m
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('linspace_function', 'E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 2\linspace_function.m', 7)" style="font-weight:bold">linspace_function</a> (<a href="matlab: opentoline('E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 2\linspace_function.m',7,0)">line 7</a>)
+A = linspace(Up_range,Low_range,point);
+} 
+matlab.internal.language.introspective.errorDocCallback('linspace_function', 'E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 2\linspace_function.m', 7)
+Linearly spaced one-dimensional array:
+-----------------------------------------
+Using linspace function:
+    2.0000    4.5000    7.0000    9.5000   12.0000
+
+Without using linspace function:
+    2.0000    4.5000    7.0000    9.5000   12.0000
+
+linspace_function
+Linearly spaced one-dimensional array:
+-----------------------------------------
+Using linspace function:
+    2.0000    4.5000    7.0000    9.5000   12.0000
+
+Without using linspace function:
+    2.0000    4.5000    7.0000    9.5000   12.0000
+
+
+A =
+
+     2     1     2
+     2     2     2
+     1     1     2
+
+
+A =
+
+     3    11     5
+     8    21    22
+
+
+A =
+
+     4    24
+    20    22
+    15    28
+
+
+A =
+
+    27     6
+    11     1
+    21    23
+
+
+A =
+
+    16    19
+    15    19
+    28    26
+
+Maximum value of the array A:    28    26
+
+Minimum value of the array A:    15    19
+
+
+A =
+
+    25
+
+Maximum value of the array A:    25
+
+Minimum value of the array A:    25
+
+
+A =
+
+    18     6     8    27     1
+
+Maximum value of the array A:    27
+
+Minimum value of the array A:     1
+
+Dot indexing is not supported for variables of this
+type.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Untitled5', 'Untitled5', 3)" style="font-weight:bold">Untitled5</a> (<a href="matlab: opentoline('Untitled5',3,0)">line 3</a>)
+A.B
+
+
+ans =
+
+    14    32   100
+   120   260    76
+
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mtimes')" style="font-weight:bold"> * </a>
+Incorrect dimensions for matrix multiplication. Check
+that the number of columns in the first matrix matches
+the number of rows in the second matrix. To perform
+elementwise multiplication, use '.*'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Untitled5', 'Untitled5', 3)" style="font-weight:bold">Untitled5</a> (<a href="matlab: opentoline('Untitled5',3,0)">line 3</a>)
+A*B
+
+
+ans =
+
+   195    50   400
+   420    88    85
+
+Matrix dimensions must agree.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Untitled5', 'Untitled5', 4)" style="font-weight:bold">Untitled5</a> (<a href="matlab: opentoline('Untitled5',4,0)">line 4</a>)
+A.*B
+
+
+ans =
+
+   357   363
+   211   192
+
+
+ans =
+
+   475   374   234
+   540    66     8
+
+
+ans =
+
+    1.3437   -0.0371
+    0.0764    1.5882
+
+
+ans =
+
+   169    75   182
+   100    90     6
+
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mrdivide')" style="font-weight:bold"> / </a>
+Matrix dimensions must agree.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Untitled5', 'Untitled5', 6)" style="font-weight:bold">Untitled5</a> (<a href="matlab: opentoline('Untitled5',6,0)">line 6</a>)
+x/B
+
+
+ans =
+
+    45   192    52
+   200   160   325
+
+
+ans =
+
+    0.3333    0.4167    1.2500
+    0.2500    0.6250    0.3846
+
+
+ans =
+
+   240    30    55
+   156   144   171
+
+
+ans =
+
+    0.5000    0.5000    0.4545
+    0.4167    0.2778    0.2632
+
+
+ans =
+
+    2.0000    2.0000    2.2000
+    2.4000    3.6000    3.8000
+
+
+ans =
+
+   300    48   126
+    87   126   378
+
+
+ans =
+
+    0.3333    0.8333    0.3571
+    1.6667    0.8333    0.2778
+
+
+ans =
+
+    3.0000    1.2000    2.8000
+    0.6000    1.2000    3.6000
+
+
+ans =
+
+   209   210   190
+    48    10   192
+
+
+ans =
+
+    0.2632    0.5000    0.5000
+    2.5000    0.5000    0.3125
+
+
+ans =
+
+    3.8000    2.0000    2.0000
+    0.4000    2.0000    3.2000
+
+
+ans =
+
+   100   120    30
+    96    26   352
+
+
+ans =
+
+    0.5000    0.6250    1.0000
+    1.2500    0.3846    0.3125
+
+
+ans =
+
+    2.0000    1.6000    1.0000
+    0.8000    2.6000    3.2000
+
+
+ans =
+
+    2.0000    1.6000    1.0000
+    0.8000    2.6000    3.2000
+
+
+ans =
+
+    24   126    60
+   336   276   126
+
+
+ans =
+
+    1.6667    0.3571    0.5000
+    0.4167    0.4167    0.3571
+
+
+ans =
+
+    0.6000    2.8000    2.0000
+    2.4000    2.4000    2.8000
+
+
+ans =
+
+    0.0877    0.5327
+   -0.4715    1.8599
+
+
+ans =
+
+   120   260    70
+    84   290   308
+
+
+ans =
+
+    0.8333    0.3846    0.5000
+    1.2500    0.5000    0.3571
+
+
+ans =
+
+    1.2000    2.6000    2.0000
+    0.8000    2.0000    2.8000
+
+
+ans =
+
+    3.3549   -1.9498
+    2.8735   -0.5218
+
+
+ans =
+
+    3.3333    1.5385    0.7000
+    5.2500    2.9000    1.5714
+
+
+A =
+
+     4     4     5
+     2     3     5
+
+
+B =
+
+     3     4     6
+     5     4     3
+
+
+ans =
+
+    0.6179    0.4145
+    0.9045   -0.1464
+
+
+ans =
+
+    1.3333    1.0000    0.8333
+    0.4000    0.7500    1.6667
+
+
+A =
+
+     1     2     1
+     1     2     2
+
+
+B =
+
+     2     2     2
+     2     2     2
+
+[Warning: Rank deficient, rank = 1, tol =
+2.307555e-15.] 
+
+ans =
+
+    0.6667         0
+    0.8333         0
+
+
+ans =
+
+    0.5000    1.0000    0.5000
+    0.5000    1.0000    1.0000
+
+
+A =
+
+     1     1     1
+     1     1     1
+
+
+B =
+
+     1     2     2
+     2     2     2
+
+
+ans =
+
+     1     2     2
+     2     2     2
+
+
+ans =
+
+    1.0000    0.5000    0.5000
+    0.5000    0.5000    0.5000
+
+
+ans =
+
+     5     5     5
+     5     5     5
+
+
+ans =
+
+    0.2000    0.2000    0.2000
+    0.2000    0.2000    0.2000
+
+
+A =
+
+     1     2     2
+     1     1     2
+
+
+B =
+
+     2     1     2
+     1     2     2
+
+
+ans =
+
+  148.4132
+
+
+ans =
+
+    2.7183    7.3891    7.3891
+    2.7183    2.7183    7.3891
+
+
+ans =
+
+      100000
+
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mpower', 'C:\Program Files\Polyspace\R2020a\toolbox\matlab\ops\mpower.m', 51)" style="font-weight:bold"> ^ </a> (<a href="matlab: opentoline('C:\Program Files\Polyspace\R2020a\toolbox\matlab\ops\mpower.m',51,0)">line 51</a>)
+Incorrect dimensions for raising a matrix to a power.
+Check that the matrix is square and the power is a
+scalar. To perform elementwise matrix powers, use
+'.^'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Untitled5', 'Untitled5', 13)" style="font-weight:bold">Untitled5</a> (<a href="matlab: opentoline('Untitled5',13,0)">line 13</a>)
+10^A
+
+
+ans =
+
+      100000
+
+
+ans =
+
+   100    10    10
+   100    10    10
+
+
+ans =
+
+      100000
+
+
+ans =
+
+   100   100    10
+    10   100    10
+
+Unrecognized function or variable 'e'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Untitled5', 'Untitled5', 14)" style="font-weight:bold">Untitled5</a> (<a href="matlab: opentoline('Untitled5',14,0)">line 14</a>)
+e^A
+
+
+ans =
+
+      100000
+
+
+ans =
+
+   100   100   100
+    10   100   100
+
+Unrecognized function or variable 'e'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Untitled5', 'Untitled5', 14)" style="font-weight:bold">Untitled5</a> (<a href="matlab: opentoline('Untitled5',14,0)">line 14</a>)
+e.^A
+
+
+ans =
+
+      100000
+
+
+ans =
+
+   100   100    10
+    10    10    10
+
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mpower', 'C:\Program Files\Polyspace\R2020a\toolbox\matlab\ops\mpower.m', 51)" style="font-weight:bold"> ^ </a> (<a href="matlab: opentoline('C:\Program Files\Polyspace\R2020a\toolbox\matlab\ops\mpower.m',51,0)">line 51</a>)
+Incorrect dimensions for raising a matrix to a power.
+Check that the matrix is square and the power is a
+scalar. To perform elementwise matrix powers, use
+'.^'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Untitled5', 'Untitled5', 14)" style="font-weight:bold">Untitled5</a> (<a href="matlab: opentoline('Untitled5',14,0)">line 14</a>)
+A^scalar_val
+
+
+ans =
+
+      100000
+
+
+ans =
+
+   100   100   100
+   100   100   100
+
+
+ans =
+
+    32    32    32
+    32    32    32
+
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mpower', 'C:\Program Files\Polyspace\R2020a\toolbox\matlab\ops\mpower.m', 51)" style="font-weight:bold"> ^ </a> (<a href="matlab: opentoline('C:\Program Files\Polyspace\R2020a\toolbox\matlab\ops\mpower.m',51,0)">line 51</a>)
+Incorrect dimensions for raising a matrix to a power.
+Check that the matrix is square and the power is a
+scalar. To perform elementwise matrix powers, use
+'.^'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Untitled5', 'Untitled5', 15)" style="font-weight:bold">Untitled5</a> (<a href="matlab: opentoline('Untitled5',15,0)">line 15</a>)
+A^B
+
+
+ans =
+
+      100000
+
+
+ans =
+
+   100   100    10
+    10    10   100
+
+
+ans =
+
+    32    32     1
+     1     1    32
+
+
+ans =
+
+     4     4     1
+     1     1     4
+
+Some instances of the usage of dot operator:
+-----------------------------------------------
+Dot multiplication of two arrays:
+     2     4     2
+     4     4     2
+
+Element-wise division of two arrays:
+    0.5000    1.0000    2.0000
+    1.0000    1.0000    2.0000
+
+    5.0000    2.5000    2.5000
+    2.5000    2.5000    2.5000
+
+Scalar numerator vs array type denominator:
+Power term is an array:
+    10   100   100
+   100   100   100
+
+Base term is an array:
+     1    32    32
+    32    32    32
+
+Some instances of the usage of dot operator:
+-----------------------------------------------
+Dot multiplication of two arrays:
+     2     2     2
+     2     1     2
+
+Element-wise division of two arrays:
+    2.0000    2.0000    2.0000
+    0.5000    1.0000    2.0000
+
+    2.5000    2.5000    2.5000
+    5.0000    5.0000    2.5000
+
+Scalar numerator vs array type denominator:
+Power term is an array:
+   100   100   100
+    10    10   100
+
+Base term is an array:
+    32    32    32
+     1     1    32
+
+Some instances of the usage of dot operator:
+-----------------------------------------------
+Dot multiplication of two arrays:
+     1     2     2
+     2     1     2
+
+Element-wise division of two arrays:
+    1.0000    0.5000    0.5000
+    0.5000    1.0000    2.0000
+
+Division when numerator-scalar and denominator-array:
+    5.0000    5.0000    5.0000
+    5.0000    5.0000    2.5000
+
+Scalar numerator vs array type denominator:
+Power term is an array:
+    10    10    10
+    10    10   100
+
+Base term is an array:
+     1     1     1
+     1     1    32
+
+Some instances of the usage of dot operator:
+-----------------------------------------------
+Dot multiplication of two arrays:
+     2     2     2
+     2     2     1
+
+Element-wise division of two arrays:
+    0.5000    2.0000    0.5000
+    0.5000    2.0000    1.0000
+
+Division when numerator-scalar and denominator-array:
+    5.0000    2.5000    5.0000
+    5.0000    2.5000    5.0000
+
+Power term is an array:
+    10   100    10
+    10   100    10
+
+Base term is an array:
+     1    32     1
+     1    32     1
+
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('table', 'C:\Program Files\Polyspace\R2020a\toolbox\matlab\datatypes\tabular\@table\table.m', 233)" style="font-weight:bold">table</a> (<a href="matlab: opentoline('C:\Program Files\Polyspace\R2020a\toolbox\matlab\datatypes\tabular\@table\table.m',233,0)">line 233</a>)
+All table variables must have the same number of
+rows.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Untitled6', 'Untitled6', 8)" style="font-weight:bold">Untitled6</a> (<a href="matlab: opentoline('Untitled6',8,0)">line 8</a>)
+table(Battery_name,Power_density,Energy_density,Life_cycle,safety)
+
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('table', 'C:\Program Files\Polyspace\R2020a\toolbox\matlab\datatypes\tabular\@table\table.m', 260)" style="font-weight:bold">table</a> (<a href="matlab: opentoline('C:\Program Files\Polyspace\R2020a\toolbox\matlab\datatypes\tabular\@table\table.m',260,0)">line 260</a>)
+Wrong number of arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Untitled6', 'Untitled6', 8)" style="font-weight:bold">Untitled6</a> (<a href="matlab: opentoline('Untitled6',8,0)">line 8</a>)
+table(Battery_name,Power_density,Energy_density,Life_cycle,safety)
+
+
+ans =
+
+  3×5 <a href="matlab:helpPopup table" style="font-weight:bold">table</a>
+
+           <strong>Battery_name</strong>           <strong>Power_density</strong>    <strong>Energy_density</strong>    <strong>Life_cycle</strong>       <strong>safety</strong>   
+    <strong>__________________________</strong>    <strong>_____________</strong>    <strong>______________</strong>    <strong>__________</strong>    <strong>____________</strong>
+
+    {'Li-ion'                }          2                 5               2        {'High'    }
+    {'Liquid super capacitor'}          5               2.5               5        {'Low'     }
+    {'Lead acid'             }          1                 2             1.5        {'Moderate'}
+
+Comparison among different battery types:
+--------------------------------------------
+           <strong>Battery_name</strong>           <strong>Power_density</strong>    <strong>Energy_density</strong>    <strong>Life_cycle</strong>       <strong>safety</strong>   
+    <strong>__________________________</strong>    <strong>_____________</strong>    <strong>______________</strong>    <strong>__________</strong>    <strong>____________</strong>
+
+    {'Li-ion'                }          2                 5               2        {'High'    }
+    {'Liquid super capacitor'}          5               2.5               5        {'Low'     }
+    {'Lead acid'             }          1                 2             1.5        {'Moderate'}
+
+Table
+Comparison among different battery types:
+--------------------------------------------
+           <strong>Battery_name</strong>           <strong>Power_density</strong>    <strong>Energy_density</strong>    <strong>Life_cycle</strong>       <strong>safety</strong>   
+    <strong>__________________________</strong>    <strong>_____________</strong>    <strong>______________</strong>    <strong>__________</strong>    <strong>____________</strong>
+
+    {'Li-ion'                }          2                 5               2        {'High'    }
+    {'Liquid super capacitor'}          5               2.5               5        {'Low'     }
+    {'Lead acid'             }          1                 2             1.5        {'Moderate'}
+
+Comparison among different battery types:
+--------------------------------------------
+           <strong>Battery_name</strong>           <strong>Energy_density</strong>    <strong>Life_cycle</strong>       <strong>safety</strong>   
+    <strong>__________________________</strong>    <strong>______________</strong>    <strong>__________</strong>    <strong>____________</strong>
+
+    {'Li-ion'                }           5               2        {'High'    }
+    {'Liquid super capacitor'}         2.5               5        {'Low'     }
+    {'Lead acid'             }           2             1.5        {'Moderate'}
+
+T.Battery_name
+{Unable to resolve the name T.Battery_name.
+} 
+T.properties
+{Unable to resolve the name T.properties.
+} 
+T.Properties
+{Unable to resolve the name T.Properties.
+} 
+Comparison among different battery types:
+--------------------------------------------
+           <strong>Battery_name</strong>           <strong>Energy_density</strong>    <strong>Life_cycle</strong>       <strong>safety</strong>   
+    <strong>__________________________</strong>    <strong>______________</strong>    <strong>__________</strong>    <strong>____________</strong>
+
+    {'Li-ion'                }           5               2        {'High'    }
+    {'Liquid super capacitor'}         2.5               5        {'Low'     }
+    {'Lead acid'             }           2             1.5        {'Moderate'}
+
+TABLE.variables
+{Unrecognized table variable name 'variables'. Names
+are case sensitive. You may have intended to access
+the entire table's contents as an array with
+'Variables'.
+} 
+TABLE.Variables
+{Unable to concatenate the table variables
+'Battery_name' and 'Energy_density', because their
+types are cell and double.
+} 
+clc
+TABLE('Battery_name')
+{Subscripting into a table using one subscript (as
+in t(i)) or three or more subscripts (as in
+t(i,j,k)) is not supported. Always specify a row
+subscript and a variable subscript, as in
+t(rows,vars).
+} 
+TABLE('Li-ion')
+{Subscripting into a table using one subscript (as
+in t(i)) or three or more subscripts (as in
+t(i,j,k)) is not supported. Always specify a row
+subscript and a variable subscript, as in
+t(rows,vars).
+} 
+T.Variables
+{Unable to resolve the name T.Variables.
+} 
+Comparison among different battery types:
+--------------------------------------------
+           <strong>Battery_name</strong>           <strong>Energy_density</strong>    <strong>Life_cycle</strong>    <strong>safety</strong>
+    <strong>__________________________</strong>    <strong>______________</strong>    <strong>__________</strong>    <strong>______</strong>
+
+    {'Li-ion'                }           5               2          4   
+    {'Liquid super capacitor'}         2.5               5          2   
+    {'Lead acid'             }           2             1.5          3   
+
+TABLE.Variables
+{Unable to concatenate the table variables 'Battery_name' and 'Energy_density',
+because their types are cell and double.
+} 
+TABLE.Variables
+{Unable to concatenate the table variables 'Battery_name' and 'Energy_density',
+because their types are cell and double.
+} 
+TABLE.Properties
+
+ans = 
+
+  <a href="matlab:helpPopup matlab.tabular.TableProperties" style="font-weight:bold">TableProperties</a> with properties:
+
+             Description: ''
+                UserData: []
+          DimensionNames: {'Row'  'Variables'}
+           VariableNames: {1×4 cell}
+    VariableDescriptions: {}
+           VariableUnits: {}
+      VariableContinuity: []
+                RowNames: {}
+        CustomProperties: No custom properties are set.
+      Use <a href="matlab:helpPopup tabular/addprop">addprop</a> and <a href="matlab:helpPopup tabular/rmprop">rmprop</a> to modify CustomProperties.
+
+TABLE.safety
+
+ans =
+
+     4
+     2
+     3
+
+TABLE.Battery_name
+
+ans =
+
+  3×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'Li-ion'                }
+    {'Liquid super capacitor'}
+    {'Lead acid'             }
+
+clc;clear;
+Table
+Comparison among different battery types:
+--------------------------------------------
+           <strong>Battery_name</strong>           <strong>Energy_density</strong>    <strong>Life_cycle</strong>    <strong>safety</strong>
+    <strong>__________________________</strong>    <strong>______________</strong>    <strong>__________</strong>    <strong>______</strong>
+
+    {'Li-ion'                }           5               2          4   
+    {'Liquid super capacitor'}         2.5               5          2   
+    {'Lead acid'             }           2             1.5          3   
+
+Table
+Comparison among different battery types:
+--------------------------------------------
+           <strong>Battery_name</strong>           <strong>Energy_density</strong>    <strong>Life_cycle</strong>       <strong>safety</strong>   
+    <strong>__________________________</strong>    <strong>______________</strong>    <strong>__________</strong>    <strong>____________</strong>
+
+    {'Li-ion'                }           5               2        {'High'    }
+    {'Liquid super capacitor'}         2.5               5        {'Low'     }
+    {'Lead acid'             }           2             1.5        {'Moderate'}
+
+TABLE.Properties
+
+ans = 
+
+  <a href="matlab:helpPopup matlab.tabular.TableProperties" style="font-weight:bold">TableProperties</a> with properties:
+
+             Description: ''
+                UserData: []
+          DimensionNames: {'Row'  'Variables'}
+           VariableNames: {1×4 cell}
+    VariableDescriptions: {}
+           VariableUnits: {}
+      VariableContinuity: []
+                RowNames: {}
+        CustomProperties: No custom properties are set.
+      Use <a href="matlab:helpPopup tabular/addprop">addprop</a> and <a href="matlab:helpPopup tabular/rmprop">rmprop</a> to modify CustomProperties.
+
+TABLE.safety
+
+ans =
+
+  3×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'High'    }
+    {'Low'     }
+    {'Moderate'}
+
+clc
+Table
+Comparison among different battery types:
+--------------------------------------------
+           <strong>Battery_name</strong>           <strong>Energy_density</strong>    <strong>Life_cycle</strong>       <strong>safety</strong>   
+    <strong>__________________________</strong>    <strong>______________</strong>    <strong>__________</strong>    <strong>____________</strong>
+
+    {'Li-ion'                }           5               2        {'High'    }
+    {'Liquid super capacitor'}         2.5               5        {'Low'     }
+    {'Lead acid'             }           2             1.5        {'Moderate'}
+
+Comparison among different battery types:
+--------------------------------------------
+           <strong>Battery_name</strong>           <strong>Energy_density</strong>    <strong>Life_cycle</strong>       <strong>safety</strong>   
+    <strong>__________________________</strong>    <strong>______________</strong>    <strong>__________</strong>    <strong>____________</strong>
+
+    {'Li-ion'                }           5               2        {'High'    }
+    {'Liquid super capacitor'}         2.5               5        {'Low'     }
+    {'Lead acid'             }           2             1.5        {'Moderate'}
+
+    {'Li-ion'                }
+    {'Liquid super capacitor'}
+    {'Lead acid'             }
+
+Error: <a href="matlab: opentoline('E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 2\Table.m',13,53)">File: Table.m Line: 13 Column: 53</a>
+Invalid expression. When calling a function or
+indexing a variable, use parentheses. Otherwise,
+check for mismatched delimiters.
+
+Table
+Comparison among different battery types:
+--------------------------------------------
+           <strong>Battery_name</strong>           <strong>Energy_density</strong>    <strong>Life_cycle</strong>       <strong>safety</strong>   
+    <strong>__________________________</strong>    <strong>______________</strong>    <strong>__________</strong>    <strong>____________</strong>
+
+    {'Li-ion'                }           5               2        {'High'    }
+    {'Liquid super capacitor'}         2.5               5        {'Low'     }
+    {'Lead acid'             }           2             1.5        {'Moderate'}
+
+Accessing the data of Battery_name column:
+    {'Li-ion'                }
+    {'Liquid super capacitor'}
+    {'Lead acid'             }
+
+Table
+Comparison among different battery types:
+--------------------------------------------
+           <strong>Battery_name</strong>           <strong>Energy_density</strong>    <strong>Life_cycle</strong>       <strong>safety</strong>   
+    <strong>__________________________</strong>    <strong>______________</strong>    <strong>__________</strong>    <strong>____________</strong>
+
+    {'Li-ion'                }           5               2        {'High'    }
+    {'Liquid super capacitor'}         2.5               5        {'Low'     }
+    {'Lead acid'             }           2             1.5        {'Moderate'}
+
+Accessing the data of Battery_name column:
+    {'Li-ion'                }
+    {'Liquid super capacitor'}
+    {'Lead acid'             }
+
+Accessing the data of Energy_density column:
+    {'Li-ion'                }
+    {'Liquid super capacitor'}
+    {'Lead acid'             }
+
+Table
+Comparison among different battery types:
+--------------------------------------------
+           <strong>Battery_name</strong>           <strong>Energy_density</strong>    <strong>Life_cycle</strong>       <strong>safety</strong>   
+    <strong>__________________________</strong>    <strong>______________</strong>    <strong>__________</strong>    <strong>____________</strong>
+
+    {'Li-ion'                }           5               2        {'High'    }
+    {'Liquid super capacitor'}         2.5               5        {'Low'     }
+    {'Lead acid'             }           2             1.5        {'Moderate'}
+
+Accessing the data of Battery_name column:
+    {'Li-ion'                }
+    {'Liquid super capacitor'}
+    {'Lead acid'             }
+
+Accessing the data of Energy_density column:
+    5.0000
+    2.5000
+    2.0000
+
+Accessing the data of Life_cycle column:
+    2.0000
+    5.0000
+    1.5000
+
+Accessing the data of safety column:
+    {'High'    }
+    {'Low'     }
+    {'Moderate'}
+
+class(TABLE.safety)
+
+ans =
+
+    'cell'
+
+class(TABLE.Battery_name)
+
+ans =
+
+    'cell'
+
+class(TABLE.Life_cycle)
+
+ans =
+
+    'double'
+
+
+ans =
+
+  2×3 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {0×0 double}    {0×0 double}    {0×0 double}
+    {0×0 double}    {0×0 double}    {0×0 double}
+
+
+A =
+
+  2×3 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {0×0 double}    {0×0 double}    {0×0 double}
+    {0×0 double}    {0×0 double}    {0×0 double}
+
+Conversion to cell from double is not possible.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Untitled7', 'Untitled7', 3)" style="font-weight:bold">Untitled7</a> (<a href="matlab: opentoline('Untitled7',3,0)">line 3</a>)
+A(1,1)=[3];
+
+
+A =
+
+  2×3 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {0×0 double}    {0×0 double}    {0×0 double}
+    {0×0 double}    {0×0 double}    {0×0 double}
+
+Expected one output from a curly brace or dot
+indexing expression, but there were 3 results.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Untitled7', 'Untitled7', 3)" style="font-weight:bold">Untitled7</a> (<a href="matlab: opentoline('Untitled7',3,0)">line 3</a>)
+A{1,:}=[3 4];
+
+
+A =
+
+  2×3 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {0×0 double}    {0×0 double}    {0×0 double}
+    {0×0 double}    {0×0 double}    {0×0 double}
+
+Conversion to cell from double is not possible.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Untitled7', 'Untitled7', 3)" style="font-weight:bold">Untitled7</a> (<a href="matlab: opentoline('Untitled7',3,0)">line 3</a>)
+A(1,:)=[3 4];
+
+
+A =
+
+  2×3 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {0×0 double}    {0×0 double}    {0×0 double}
+    {0×0 double}    {0×0 double}    {0×0 double}
+
+Conversion to cell from double is not possible.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Untitled7', 'Untitled7', 3)" style="font-weight:bold">Untitled7</a> (<a href="matlab: opentoline('Untitled7',3,0)">line 3</a>)
+A(1,:)=[3,4];
+
+
+A =
+
+  2×3 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {0×0 double}    {0×0 double}    {0×0 double}
+    {0×0 double}    {0×0 double}    {0×0 double}
+
+Conversion to cell from double is not possible.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Untitled7', 'Untitled7', 3)" style="font-weight:bold">Untitled7</a> (<a href="matlab: opentoline('Untitled7',3,0)">line 3</a>)
+A(1,:)=[3;4];
+
+
+A =
+
+  2×3 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {0×0 double}    {0×0 double}    {0×0 double}
+    {0×0 double}    {0×0 double}    {0×0 double}
+
+Conversion to cell from double is not possible.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Untitled7', 'Untitled7', 3)" style="font-weight:bold">Untitled7</a> (<a href="matlab: opentoline('Untitled7',3,0)">line 3</a>)
+A(1,:)=[3;4;4];
+
+
+A =
+
+  2×3 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {0×0 double}    {0×0 double}    {0×0 double}
+    {0×0 double}    {0×0 double}    {0×0 double}
+
+Conversion to cell from double is not possible.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Untitled7', 'Untitled7', 3)" style="font-weight:bold">Untitled7</a> (<a href="matlab: opentoline('Untitled7',3,0)">line 3</a>)
+A(1,:)=[3 4 4];
+
+
+A =
+
+  2×3 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {0×0 double}    {0×0 double}    {0×0 double}
+    {0×0 double}    {0×0 double}    {0×0 double}
+
+Conversion to cell from double is not possible.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Untitled7', 'Untitled7', 3)" style="font-weight:bold">Untitled7</a> (<a href="matlab: opentoline('Untitled7',3,0)">line 3</a>)
+A(1,:)=[3,4,4];
+
+
+A =
+
+  2×3 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {0×0 double}    {0×0 double}    {0×0 double}
+    {0×0 double}    {0×0 double}    {0×0 double}
+
+Expected one output from a curly brace or dot
+indexing expression, but there were 3 results.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Untitled7', 'Untitled7', 3)" style="font-weight:bold">Untitled7</a> (<a href="matlab: opentoline('Untitled7',3,0)">line 3</a>)
+A{1,:}=[3,4,4];
+
+
+A =
+
+  2×3 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {0×0 double}    {0×0 double}    {0×0 double}
+    {0×0 double}    {0×0 double}    {0×0 double}
+
+Conversion to cell from double is not possible.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Untitled7', 'Untitled7', 3)" style="font-weight:bold">Untitled7</a> (<a href="matlab: opentoline('Untitled7',3,0)">line 3</a>)
+A(1,:)=[3,4,4];
+
+
+A =
+
+  2×3 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {0×0 double}    {0×0 double}    {0×0 double}
+    {0×0 double}    {0×0 double}    {0×0 double}
+
+Conversion to cell from char is not possible.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Untitled7', 'Untitled7', 3)" style="font-weight:bold">Untitled7</a> (<a href="matlab: opentoline('Untitled7',3,0)">line 3</a>)
+A(1,:)=['3','4','4'];
+
+
+A =
+
+  2×3 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {0×0 double}    {0×0 double}    {0×0 double}
+    {0×0 double}    {0×0 double}    {0×0 double}
+
+
+A =
+
+  2×3 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'3'       }    {'4'       }    {'4'       }
+    {0×0 double}    {0×0 double}    {0×0 double}
+
+
+A =
+
+  2×3 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {0×0 double}    {0×0 double}    {0×0 double}
+    {0×0 double}    {0×0 double}    {0×0 double}
+
+
+A =
+
+  2×3 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {[       3]}    {[       4]}    {[       4]}
+    {0×0 double}    {0×0 double}    {0×0 double}
+
+
+A =
+
+  2×3 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {0×0 double}    {0×0 double}    {0×0 double}
+    {0×0 double}    {0×0 double}    {0×0 double}
+
+    {[3]}    {[4]}    {[4]}
+    {'A'}    {'B'}    {'C'}
+
+A(1,:)
+
+ans =
+
+  1×3 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {[3]}    {[4]}    {[4]}
+
+whos
+  Name      Size            Bytes  Class    Attributes
+
+  A         2x3               654  cell               
+  ans       1x3               336  cell               
+
+clc
+class(A(1,1))
+
+ans =
+
+    'cell'
+
+class(A(1,2))
+
+ans =
+
+    'cell'
+
+clc
+class(A)
+
+ans =
+
+    'cell'
+
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('struct')" style="font-weight:bold">struct</a>
+Array dimensions of input '8' must match those of
+input '2', or be scalar.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Untitled7', 'Untitled7', 18)" style="font-weight:bold">Untitled7</a> (<a href="matlab: opentoline('Untitled7',18,0)">line 18</a>)
+S =
+struct(header1,val_header1,header2,val_header2,header3,...
+
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('struct')" style="font-weight:bold">struct</a>
+Invalid field name "Battery Name".
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Untitled7', 'Untitled7', 18)" style="font-weight:bold">Untitled7</a> (<a href="matlab: opentoline('Untitled7',18,0)">line 18</a>)
+S =
+struct(header1,val_header1,header2,val_header2,header3,...
+
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('struct')" style="font-weight:bold">struct</a>
+Invalid field name "Energy Density".
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Untitled7', 'Untitled7', 18)" style="font-weight:bold">Untitled7</a> (<a href="matlab: opentoline('Untitled7',18,0)">line 18</a>)
+S =
+struct(header1,val_header1,header2,val_header2,header3,...
+
+
+S = 
+
+  1×3 <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> array with fields:
+
+    Battery_Name
+    Energy_Density
+    Life_cycle
+    safety
+
+S.Battery_Name
+
+ans =
+
+    'Li-ion'
+
+
+ans =
+
+    'Liquid super capacitor'
+
+
+ans =
+
+    'Lead acid'
+
+clc
+S.Battery_Name(1)
+{Expected one output from a curly brace or dot
+indexing expression, but there were 3 results.
+} 
+S.Battery_Name[1]
+ S.Battery_Name[1]
+               ↑
+{Error: Invalid expression. When calling a function
+or indexing a variable, use parentheses. Otherwise,
+check for mismatched delimiters.
+} 
+S.Battery_Name
+
+ans =
+
+    'Li-ion'
+
+
+ans =
+
+    'Liquid super capacitor'
+
+
+ans =
+
+    'Lead acid'
+
+clc
+S(1)
+
+ans = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+      Battery_Name: 'Li-ion'
+    Energy_Density: 5
+        Life_cycle: [2 5 1.5000]
+            safety: 'High'
+
+
+S = 
+
+  1×3 <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> array with fields:
+
+    Battery_Name
+    Energy_Density
+    Life_cycle
+    safety
+
+Sturcture array with the data of different battery types:
+  1×3 <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> array with fields:
+
+    Battery_Name
+    Energy_Density
+    Life_cycle
+    safety
+
+      Battery_Name: 'Li-ion'
+    Energy_Density: 5
+        Life_cycle: [2 5 1.5000]
+            safety: 'High'
+
+Sturcture array with the data of different battery types:
+
+S = 
+
+  1×3 <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> array with fields:
+
+    Battery_Name
+    Energy_Density
+    Life_cycle
+    safety
+
+      Battery_Name: 'Li-ion'
+    Energy_Density: 5
+        Life_cycle: [2 5 1.5000]
+            safety: 'High'
+
+Sturcture array formed from the data of different battery types:
+
+S = 
+
+  1×3 <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> array with fields:
+
+    Battery_Name
+    Energy_Density
+    Life_cycle
+    safety
+
+      Battery_Name: 'Li-ion'
+    Energy_Density: 5
+        Life_cycle: [2 5 1.5000]
+            safety: 'High'
+
+Sturcture array of different battery types:
+
+S = 
+
+  1×3 <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> array with fields:
+
+    Battery_Name
+    Energy_Density
+    Life_cycle
+    safety
+
+      Battery_Name: 'Li-ion'
+    Energy_Density: 5
+        Life_cycle: [2 5 1.5000]
+            safety: 'High'
+
+Sturcture array of different battery types and properties:
+
+S = 
+
+  1×3 <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> array with fields:
+
+    Battery_Name
+    Energy_Density
+    Life_cycle
+    safety
+
+      Battery_Name: 'Li-ion'
+    Energy_Density: 5
+        Life_cycle: [2 5 1.5000]
+            safety: 'High'
+
+Sturcture array of different battery types and properties:
+
+S = 
+
+  1×3 <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> array with fields:
+
+    Battery_Name
+    Energy_Density
+    Life_cycle
+    safety
+
+Accessing first field of the structure:
+      Battery_Name: 'Li-ion'
+    Energy_Density: 5
+        Life_cycle: [2 5 1.5000]
+            safety: 'High'
+
+Sturcture array of different battery types and properties:
+
+S = 
+
+  1×3 <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> array with fields:
+
+    Battery_Name
+    Energy_Density
+    Life_cycle
+    safety
+
+Accessing first field of the structure:
+
+      Battery_Name: 'Li-ion'
+    Energy_Density: 5
+        Life_cycle: [2 5 1.5000]
+            safety: 'High'
+
+Sturcture array of different battery types and properties:
+
+S = 
+
+  1×3 <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> array with fields:
+
+    Battery_Name
+    Energy_Density
+    Life_cycle
+    safety
+
+Accessing first field of the structure:
+
+      Battery_Name: 'Li-ion'
+    Energy_Density: 5
+        Life_cycle: [2 5 1.5000]
+            safety: 'High'
+
+Accessing second field of the structure:
+
+      Battery_Name: 'Liquid super capacitor'
+    Energy_Density: 2.5000
+        Life_cycle: [2 5 1.5000]
+            safety: 'Low'
+
+Accessing third field of the structure:
+
+      Battery_Name: 'Lead acid'
+    Energy_Density: 2
+        Life_cycle: [2 5 1.5000]
+            safety: 'Moderate'
+
+Cell_Struct_array
+Cell array, A:    {[3]}    {[4]}    {[4]}
+    {'A'}    {'B'}    {'C'}
+
+Sturcture array of different battery types and properties:
+
+S = 
+
+  1×3 <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> array with fields:
+
+    Battery_Name
+    Energy_Density
+    Life_cycle
+    safety
+
+Accessing first field of the structure:
+
+      Battery_Name: 'Li-ion'
+    Energy_Density: 5
+        Life_cycle: [2 5 1.5000]
+            safety: 'High'
+
+Accessing second field of the structure:
+
+      Battery_Name: 'Liquid super capacitor'
+    Energy_Density: 2.5000
+        Life_cycle: [2 5 1.5000]
+            safety: 'Low'
+
+Accessing third field of the structure:
+
+      Battery_Name: 'Lead acid'
+    Energy_Density: 2
+        Life_cycle: [2 5 1.5000]
+            safety: 'Moderate'
+
+Cell array, A:    {[3]}    {[4]}    {[4]}
+    {'A'}    {'B'}    {'C'}
+
+Cell array, A:
+    {[3]}    {[4]}    {[4]}
+    {'A'}    {'B'}    {'C'}
+
+Cell_Struct_array
+Cell array, A:
+    {[3]}    {[4]}    {[4]}
+    {'A'}    {'B'}    {'C'}
+
+Sturcture array of different battery types and properties:
+
+S = 
+
+  1×3 <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> array with fields:
+
+    Battery_Name
+    Energy_Density
+    Life_cycle
+    safety
+
+Accessing first field of the structure:
+
+      Battery_Name: 'Li-ion'
+    Energy_Density: 5
+        Life_cycle: [2 5 1.5000]
+            safety: 'High'
+
+Accessing second field of the structure:
+
+      Battery_Name: 'Liquid super capacitor'
+    Energy_Density: 2.5000
+        Life_cycle: [2 5 1.5000]
+            safety: 'Low'
+
+Accessing third field of the structure:
+
+      Battery_Name: 'Lead acid'
+    Energy_Density: 2
+        Life_cycle: [2 5 1.5000]
+            safety: 'Moderate'
+
+One-dimensional array, A:
+    35
+
+Mean value of A = 35.000000
+Variance of A = 0.000000
+Standard deviation of A = 0.000000
+One-dimensional array, A:
+     7    37     6     6    33    17
+
+Mean value of A = 17.666667
+Variance of A = 199.066667
+Standard deviation of A = 14.109099
+mod(A)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mod')" style="font-weight:bold">mod</a>
+Not enough input arguments.
+} 
+mode(A)
+
+ans =
+
+     6
+
+
+mode_A =
+
+    38
+
+One-dimensional array, A:
+    33    38    30    38    12    37
+
+Mean value of A = 31.333333
+Variance of A = 99.866667
+Standard deviation of A = 9.993331
+Mode of A = 38.000000
+One-dimensional array, A:
+    49    44     5    19    19    35
+
+Mean value of A = 28.500000
+Variance of A = 287.100000
+Standard deviation of A = 16.944025
+Mode of A = 19.000000
+One-dimensional array, A:
+    30    40    19    11     5    39
+
+Mean value of A = 24.00
+Variance of A = 214.40
+Standard deviation of A = 14.64
+Mode of A = 5.00
+One-dimensional array, A:
+    11    20    28    12    33    25
+
+Mean value of A = 21.50
+Variance of A = 77.90
+Standard deviation of A = 8.83
+Mode of A = 11.00
+One-dimensional array, A:
+     8    40     6    15    12    27
+
+Mean value of A = 18.00
+Variance of A = 170.80
+Standard deviation of A = 13.07
+Mode of A = 6.00
+One-dimensional array, A:
+     5    21     6     6    40    15
+
+Mean value of A = 15.50
+Variance of A = 184.30
+Standard deviation of A = 13.58
+Mode of A = 6.00
+a=2;b=3;
+a>1 & b<5
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+a>1 & b>5
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+1!2
+ 1!2
+  ↑
+{Error: Invalid use of operator.
+} 
+factorial(1)*2clc
+ factorial(1)*2clc
+               ↑
+{Error: Invalid expression. Check for missing
+multiplication operator, missing or unbalanced
+delimiters, or other syntax error. To construct
+matrices, use brackets instead of parentheses.
+} 
+clc
+clear;
+clc
+1~2
+ 1~2
+  ↑
+{Error: Invalid use of operator.
+} 
+clc
+a=10;
+class(a)
+
+ans =
+
+    'double'
+
+a=int8(10)
+
+a =
+
+  <a href="matlab:helpPopup int8" style="font-weight:bold">int8</a>
+
+   10
+
+class(a)
+
+ans =
+
+    'int8'
+
+1==1
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+1==0
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+1~2
+ 1~2
+  ↑
+{Error: Invalid use of operator.
+} 
+clc
+1!=2
+ 1!=2
+  ↑
+{Error: Invalid use of operator.
+} 
+1~=2
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+
+2~=2
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+clc
+clear;clcl
+{Unrecognized function or variable 'clcl'.
+} 
+clc
+cd 'E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 3'
+clc
+Division(100,25)
+
+ans =
+
+     4
+
+clc
+cd 'E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 5'
+Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('RADAR', 'E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 5\RADAR.m', 8)" style="font-weight:bold">RADAR</a> (<a href="matlab: opentoline('E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 5\RADAR.m',8,0)">line 8</a>)
+row=size(I,1);  
+
+cd 'E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 2'
+cd 'E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 8'
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('input')" style="font-weight:bold">input</a>
+Cannot call INPUT from EVALC.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Routh_criteria', 'E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 8\Routh_criteria.m', 6)" style="font-weight:bold">Routh_criteria</a> (<a href="matlab: opentoline('E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 8\Routh_criteria.m',6,0)">line 6</a>)
+coeff=input('Enter the coefficients:')
+
+cd 'E:\Eklas Vai_final\Task\3. Writing\Task-10-Matlab\My work\Raw Files\MATLAB-File\Chapter 1'
+Diary
+Enter a:2
+Enter b:4
+Summation: 6
+Enter a:2
+Enter b:4
+Summation: 6

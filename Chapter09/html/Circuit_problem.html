@@ -1,0 +1,140 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>Circuit_problem</title><meta name="generator" content="MATLAB 9.8"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2021-04-27"><meta name="DC.source" content="Circuit_problem.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; }
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+span.typesection { color:#A0522D }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><pre class="codeinput"><span class="comment">% Circuit problem</span>
+<span class="comment">% R1= 2 ohms; R2=R3= 4 ohms</span>
+<span class="comment">% Voltage source, E =10 V</span>
+<span class="comment">% Determine loop current IL1 and IL2</span>
+<span class="comment">% Determine current, I1, I2, and I3</span>
+<span class="comment">% Determine voltage across resistance R3: VR3</span>
+<span class="comment">% Determine voltage across resistance R2: VR2</span>
+<span class="comment">% Determine voltage across resistance R1: VR1</span>
+clc;clear;
+R1=2; R2=4; R3=4;
+syms <span class="string">IL1</span> <span class="string">IL2</span>
+eqn1= 6*IL1-4*IL2==10;
+eqn2= -4*IL1+8*IL2==0;
+[IL1,IL2]=solve(eqn1,eqn2);
+fprintf(<span class="string">'The ABCD loop current, IL1: %.3f\n'</span>,IL1);
+fprintf(<span class="string">'The BEFC loop current, IL2: %.3f\n'</span>,IL2);
+
+I1=IL1; I2=IL2;
+I3= I1-I2;
+
+fprintf(<span class="string">'The currents in the circuit:\n'</span>);
+fprintf(<span class="string">'I1= %.3f  I2= %.3f   I3= %.3f\n'</span>,I1,I2,I3);
+
+VR1=I1*R1;
+VR2=I3*R2;
+VR3=I2*R3;
+
+fprintf(<span class="string">'The voltage across R1, VR1= %.3f\n'</span>,VR1);
+fprintf(<span class="string">'The voltage across R2, VR2= %.3f\n'</span>,VR2);
+fprintf(<span class="string">'The voltage across R3, VR3= %.3f\n'</span>,VR3);
+</pre><pre class="codeoutput">The ABCD loop current, IL1: 2.500
+The BEFC loop current, IL2: 1.250
+The currents in the circuit:
+I1= 2.500  I2= 1.250   I3= 1.250
+The voltage across R1, VR1= 5.000
+The voltage across R2, VR2= 5.000
+The voltage across R3, VR3= 5.000
+</pre><p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2020a</a><br></p></div><!--
+##### SOURCE BEGIN #####
+% Circuit problem
+% R1= 2 ohms; R2=R3= 4 ohms
+% Voltage source, E =10 V
+% Determine loop current IL1 and IL2
+% Determine current, I1, I2, and I3
+% Determine voltage across resistance R3: VR3
+% Determine voltage across resistance R2: VR2
+% Determine voltage across resistance R1: VR1
+clc;clear;
+R1=2; R2=4; R3=4;
+syms IL1 IL2
+eqn1= 6*IL1-4*IL2==10;
+eqn2= -4*IL1+8*IL2==0;
+[IL1,IL2]=solve(eqn1,eqn2);
+fprintf('The ABCD loop current, IL1: %.3f\n',IL1);
+fprintf('The BEFC loop current, IL2: %.3f\n',IL2);
+
+I1=IL1; I2=IL2;
+I3= I1-I2;
+
+fprintf('The currents in the circuit:\n');
+fprintf('I1= %.3f  I2= %.3f   I3= %.3f\n',I1,I2,I3);
+
+VR1=I1*R1;
+VR2=I3*R2;
+VR3=I2*R3;
+
+fprintf('The voltage across R1, VR1= %.3f\n',VR1);
+fprintf('The voltage across R2, VR2= %.3f\n',VR2);
+fprintf('The voltage across R3, VR3= %.3f\n',VR3);
+##### SOURCE END #####
+--></body></html>
