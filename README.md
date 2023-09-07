@@ -13,19 +13,7 @@ MATLAB and Simulink Crash Course for Engineers is a reader-friendly introductory
   
   
 <h2>Keywords</h2>
-<img src="https://img.shields.io/badge/MATLAB-8A2BE2" alt="shields"><br>
-<img src="https://img.shields.io/badge/MathWorks-8A2BE2" alt="shields"><br>
-<img src="https://img.shields.io/badge/Vectors%20and%20Matrices-8A2BE2" alt="shields"> <br>
-<img src="https://img.shields.io/badge/Simulink-8A2BE2" alt="shields"><br>
-<img src="https://img.shields.io/badge/Dynamical%20systems-8A2BE2" alt="shields"><br>
-<img src="https://img.shields.io/badge/Graphical%20programming-8A2BE2" alt="shields"><br>
-<img src="https://img.shields.io/badge/Numeric%20computing-8A2BE2" alt="shields"><br>
-<img src="https://img.shields.io/badge/Graph%20Plotting-8A2BE2" alt="shields"><br>
-<img src="https://img.shields.io/badge/Multidomain%20simulation-8A2BE2" alt="shields"><br>
-<img src="https://img.shields.io/badge/Modelling%20and%20Simulation-8A2BE2" alt="shields"><br>
-<img src="https://img.shields.io/badge/Model%20based%20design-8A2BE2" alt="shields"><br>
-<img src="https://img.shields.io/badge/Test%20and%20Measurement-8A2BE2" alt="shields"><br>
-<img src="https://img.shields.io/badge/Electrical%20systems-8A2BE2" alt="shields">
+<img src="https://img.shields.io/badge/MATLAB-8A2BE2" alt="shields"><br> <img src="https://img.shields.io/badge/MathWorks-8A2BE2" alt="shields"><br> <img src="https://img.shields.io/badge/Vectors%20and%20Matrices-8A2BE2" alt="shields"> <br> <img src="https://img.shields.io/badge/Simulink-8A2BE2" alt="shields"><br> <img src="https://img.shields.io/badge/Dynamical%20systems-8A2BE2" alt="shields"><br> <img src="https://img.shields.io/badge/Graphical%20programming-8A2BE2" alt="shields"><br> <img src="https://img.shields.io/badge/Numeric%20computing-8A2BE2" alt="shields"><br> <img src="https://img.shields.io/badge/Graph%20Plotting-8A2BE2" alt="shields"><br> <img src="https://img.shields.io/badge/Multidomain%20simulation-8A2BE2" alt="shields"><br> <img src="https://img.shields.io/badge/Modelling%20and%20Simulation-8A2BE2" alt="shields"><br> <img src="https://img.shields.io/badge/Model%20based%20design-8A2BE2" alt="shields"><br> <img src="https://img.shields.io/badge/Test%20and%20Measurement-8A2BE2" alt="shields"><br> <img src="https://img.shields.io/badge/Electrical%20systems-8A2BE2" alt="shields">
 
 <h2>About the author</h2>
 Eklas Hossain received his Ph.D. in 2016 from the College of Engineering and
