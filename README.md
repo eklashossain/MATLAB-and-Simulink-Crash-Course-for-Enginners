@@ -28,7 +28,25 @@ MATLAB and Simulink Crash Course for Engineers is a reader-friendly introductory
 <img src="https://img.shields.io/badge/Electrical%20systems-8A2BE2" alt="shields">
 
 <h2>About the author</h2>
-​Dr. Eklas Hossain is an Associate Professor in the Department of Electrical Engineering and Renewable Energy and an Associate Researcher with the Oregon Renewable Energy Center (OREC) at Oregon Institute of Technology. He has been working in the area of distributed power systems and renewable energy integration for the last ten years and has published a number of research papers and posters in this field. He is currently involved with several research projects on renewable energy and grid-tiered microgrid systems at Oregon Tech. He received his PhD from the College of Engineering and Applied Science at the University of Wisconsin Milwaukee (UWM), his MS in Mechatronics and Robotics Engineering from International Islamic University of Malaysia, and a BS in Electrical & Electronic Engineering from Khulna University of Engineering and Technology. Dr. Hossain is a registered Professional Engineer (PE) in the state of Oregon, a Certified Energy Manager (CEM) and Renewable Energy Professional (REP), a senior member of the Association of Energy Engineers (AEE), and an Associate Editor for IEEE Access, IEEE Systems Journal, and IET Renewable Power Generation. His research interests include modeling, analysis, design, and control of power electronic devices; energy storage systems; renewable energy sources; integration of distributed generation systems; microgrid and smart grid applications; robotics, and advanced control system. He has authored the book Excel Crash Course for Engineers (Springer, 2021), co-authored the book Renewable Energy Crash Course: A Concise Introduction (Springer, 2021), and is working on several other book projects. He received the Rising Faculty Scholar Award in 2019 and the Faculty Achievement Award in 2020 from Oregon Tech for his outstanding contribution to academia. Dr. Hossain, with his dedicated research team, is looking forward to exploring methods to make the electric power systems more sustainable, cost-effective and secure through extensive research and analysis on energy storage, microgrid system and renewable energy sources.
+Eklas Hossain received his Ph.D. in 2016 from the College of Engineering and
+Applied Science at the University of Wisconsin Milwaukee (UWM). He received
+his MS in Mechatronics and Robotics Engineering from the International Islamic
+University Malaysia, Malaysia, in 2010 and a BS in Electrical and Electronic En-
+gineering from Khulna University of Engineering and Technology, Bangladesh, in
+2006. He has been an IEEE Member since 2009, and an IEEE Senior Member since
+2017.
+He is an Associate Professor in the Department of Electrical and Computer
+Engineering at Boise State University, Idaho, USA, and a registered Professional
+Engineer (PE) (license number 93558PE) in the state of Oregon, USA. As the
+director of the iPower research laboratory, he has been actively working in the
+area of electrical power systems and power electronics and has published many
+research papers and posters. In addition, he has served as an Associate Editor for
+multiple reputed journals over time. He is the recipient of an NSF MRI award
+(Award Abstract # 2320619) in 2023 for the "Acquisition of a Digital Real-Time
+Simulator to Enhance Research and Student Research Training in Next-Generation
+Engineering and Computer Science", and a CAES Collaboration fund with Idaho
+National Laboratory (INL) on "Overcoming Barriers to Marine Hydrokinetic (MHK)
+Energy Harvesting in Offshore Environments".
 
 <h2>Bibliographic Information</h2>
 DOI: <a href="https://doi.org/10.1007/978-3-030-89762-8">https://doi.org/10.1007/978-3-030-89762-8</a>  
